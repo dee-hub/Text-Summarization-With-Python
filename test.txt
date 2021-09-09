@@ -1,0 +1,31 @@
+Multilingual text classification refers to the task of trying to find the category a statement, sentence or
+article belongs to. This is usually useful when trying to apply tags to articles or trying to group articles in
+different categories for users. The concept of multilinguality comes into play due to the increasing
+diversity in the access to the internet from non-english speakers.
+
+For this particular project, three languages were selected English, Yoruba and Hausa.
+
+English Text Classification
+
+The English Dataset comprises of 200853 article headlines gotten from series of BBC News Article
+Headlines. The dataset has 41 categories, namely ['CRIME', 'ENTERTAINMENT', 'WORLD NEWS',
+'IMPACT', 'POLITICS', 'WEIRD NEWS', 'BLACK VOICES', 'WOMEN', 'COMEDY', 'QUEER VOICES',
+'SPORTS', 'BUSINESS', 'TRAVEL', 'MEDIA', 'TECH', 'RELIGION', 'SCIENCE', 'LATINO VOICES', 'EDUCATION',
+'COLLEGE', 'PARENTS', 'ARTS & CULTURE', 'STYLE', 'GREEN', 'TASTE', 'HEALTHY LIVING', 'THE
+WORLDPOST', 'GOOD NEWS', 'WORLDPOST', 'FIFTY', 'ARTS', 'WELLNESS', 'PARENTING', 'HOME &
+LIVING', 'STYLE & BEAUTY', 'DIVORCE', 'WEDDINGS', 'FOOD & DRINK', 'MONEY', 'ENVIRONMENT',
+'CULTURE & ARTS’].
+
+To help the model converge quickly and accurately, the categories were reduced to four major
+categories namely 'ENTERTAINMENT', 'POLITICS', 'BUSINESS', 'SCIENCE& TECHNOLOGY.
+
+o The models used in training this dataset include BERT Transformer, Long Short Term
+Memory (LSTM) and Naïve Bayes Classifier.
+
+o The streamlined dataset with the four categories contains 58994 rows of BBC Article
+Headlines.
+
+The metrics employed for checking the accuracy of the models includes the f1_score, precision,
+accuracy and recall.
+
+The following includes the performance metric of the different models on the English dataset.
